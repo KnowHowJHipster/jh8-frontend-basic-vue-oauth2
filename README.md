@@ -38,7 +38,7 @@ The `npm run` command will list all of the scripts available to run for this pro
 
 JHipster ships with PWA (Progressive Web App) support, and it's turned off by default. One of the main components of a PWA is a service worker.
 
-The service worker initialization code is commented out by default. To enable it, uncomment the following code in `src/main/webapp/index.html`:
+The service worker initialization code is commented out by default. To enable it, uncomment the following code in `src/index.html`:
 
 ```html
 <script>
@@ -77,13 +77,13 @@ For further instructions on how to develop with JHipster, have a look at [Using 
 
 ### Client tests
 
-Unit tests are run by [Jest][]. They're located in [src/test/javascript/](src/test/javascript/) and can be run with:
+Unit tests are run by [Jest][]. They're located in []() and can be run with:
 
 ```
 npm test
 ```
 
-UI end-to-end tests are powered by [Cypress][]. They're located in [src/test/javascript/cypress](src/test/javascript/cypress)
+UI end-to-end tests are powered by [Cypress][]. They're located in [cypress](cypress)
 and can be run by starting Spring Boot in one terminal (`./gradlew bootRun`) and running the tests (`npm run e2e`) in a second one.
 
 #### Lighthouse audits
