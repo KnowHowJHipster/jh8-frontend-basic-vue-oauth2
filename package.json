@@ -9,7 +9,7 @@
     "build-watch": "concurrently 'npm run webapp:build:dev -- --watch'",
     "ci:frontend:build": "npm run webapp:build:$npm_package_config_default_environment",
     "ci:frontend:test": "npm run ci:frontend:build && npm test",
-    "clean-www": "rimraf build/static/",
+    "clean-www": "rimraf dist/",
     "cleanup": "rimraf build/",
     "cypress": "cypress open --e2e",
     "cypress:audits": "cypress open --e2e --config-file cypress-audits.config.js",
