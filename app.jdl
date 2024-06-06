@@ -1,0 +1,17 @@
+application {
+  config {
+    baseName Boutique
+    packageName org.iqkv.boutique
+    authenticationType oauth2
+    prodDatabaseType postgresql
+    buildTool gradle
+    clientFramework vue
+    enableTranslation true
+    nativeLanguage en
+    languages [en, ru, fr, it]
+    skipClient false
+    skipServer true
+    testFrameworks  [cypress, cucumber]
+    skipUserManagement true
+  }
+}
